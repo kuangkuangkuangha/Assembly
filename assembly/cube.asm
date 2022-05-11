@@ -36,7 +36,7 @@ imput:  mov ah, 1
         jb  err
 
 
-conver: sub al, '1'-1
+conver: sub al, '1'-1   ; 也可以直接AND 0FH 得到真值
         sub al, 1
         mov ah, 0
 
