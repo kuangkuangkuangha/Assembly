@@ -1,0 +1,14 @@
+第一次实验：https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html
+
+
+第二次实验：
+https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
+https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html#sphx-glr-beginner-blitz-neural-networks-tutorial-py
+
+
+
+第4次实验：https://www.mindspore.cn/tutorials/zh-CN/r1.6/intermediate/text/rnn_classification.html
+
+第5次实验：https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html?highlight=cbow
+
+第6次实验：https://www.mindspore.cn/tutorials/zh-CN/r1.6/linear_regression.html#%E5%AE%9A%E4%B9%89%E8%AE%AD%E7%BB%83%E7%BD%91%E7%BB%9C

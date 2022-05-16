@@ -1,0 +1,31 @@
+.386
+DATA SEGMENT USE16
+list1 DB '6705762998'
+      DB '4322687310'
+sum   DD
+DATA ENDS
+
+CODE SEGMENT USE16
+ASSUME DS: DATA, CS:CODE
+
+START:  MOV CX, 20
+        LEA BX, list1
+
+
+NEXT:   ADD AL, DS:[BX]
+        AAA
+        INC BX
+        JMP NEXT
+
+        MOV BYTE PTR SUM1，AL
+        MOV AL，AH
+        MOV AH，0；
+        AAM
+        MOV WORD PTR SUM1+1，AX
+        MOV BYTE PTR SUM1+3，0
+
+        MOV AX，4C00H
+        INT 21H
+
+CODE ENDS
+        END START
